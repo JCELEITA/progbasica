@@ -27,7 +27,7 @@ function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal, lienzo)
 function dibujarTeclado(evento)
 {
     const colorcito = "blue";
-    const movimiento = 10;  
+    const movimiento = 15;  
     switch(evento.keyCode)      
 {
     case teclas.UP: 
